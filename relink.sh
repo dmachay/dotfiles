@@ -2,7 +2,11 @@
 
 # Symlink all $repodir dotfiles in $linkdest and remove any
 # broken $linkdest (dotfile) links.
+#
+# 11/12/2012 - initial version (dmachay)
+#
 
+# Background:
 # This is used to manage the git dotfile repo; run this script
 # after adding or removing dotfiles to $repodir to automatically
 # add/remove the symlinks in $linkdest. 
